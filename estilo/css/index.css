@@ -1,0 +1,110 @@
+*{
+	padding:0;
+	margin:0;
+	font-family: sans-serif;
+}
+
+body {
+	background-color:rgba(255,0,0,0.2);
+}
+
+
+
+
+
+.header-main-title  {
+	display:grid;
+	grid-column: 2;
+	grid-row:1;
+	margin: auto 0;
+}
+
+.header-main-title2  {
+	display:grid;
+	grid-column: 3;
+	grid-row:1;
+}
+
+.header-main-title3  {
+	display:grid;
+	grid-column: 4;
+	grid-row:1;
+}
+
+.header-main-title4  {
+	display:grid;
+	grid-column: 5;
+	grid-row:1;
+}
+
+.titles {
+	text-align:center;
+	margin:auto 0;
+}
+
+h4 > a {
+	text-decoration: none;
+	color:red;
+}
+
+h4 > a:hover {
+	text-decoration: underline;
+	color:rgb(255,100,100);
+}
+
+h2, h3, h4 {
+	color:black;
+	text-align: center;
+}
+
+.number {
+	line-height: 20px;
+}
+
+.number h4 {
+	margin:auto 0;
+}
+
+#wppico {
+	width:20px;
+	margin:auto 0;
+}
+
+.urgencias-linea {
+	display: grid;
+	grid-template-columns: 2;
+	grid-auto-rows: 1;
+	float:left;
+}
+
+.urgencias-imagen {
+	display: grid;
+	grid-column: 1;
+	grid-row: 1;
+}
+
+.urgencias-imagen img {
+	width: 400px;
+	margin:20px 0 20px 20px;
+}
+
+.urgencias-texto {
+	margin-right:20px;
+	text-align: justify;
+	margin:auto 20px auto 0;
+	background: rgba(0,0,0,0.9);
+	padding:20px;
+	gap:20px;
+	color:white;
+}
+
+.urgencias-texto h2 {
+	color:white;
+	text-decoration: underline;
+}
+
+.urgencias-texto {
+	display: grid;
+	grid-column: 2 / 4;
+	grid-row:1;
+}

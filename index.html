@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/x-icon" href="./logo.jpg">
+	<title>Cerrajería Bancoff</title>
+	<link rel="stylesheet" href="estilo/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/util.js">
+	<link rel="stylesheet" href="estilo/css/general.css"> <!-- Generales -->
+	<link rel="stylesheet" href="estilo/css/header.css"> <!-- Header -->
+	<link rel="stylesheet" href="estilo/css/main.css"> <!-- Main -->
+</head>
+<body>
+	<header>
+		<div class="header-supermain">
+			<div class="d-flex justify-content-around align-items-center text-center" style="width:100%;">
+				<a href="index.html"><img class="logo img-fluid" style="max-width: 100%;" src="logo.jpg" alt=""></a>
+			</div>
+			<!--
+			<div class="d-flex justify-content-around align-items-center text-center p-4" style="width:100%;">
+				<div class="num-maldo">
+					<b>Maldonado</b><br><a style="text-decoration: none;" href="tel:+59891272741">+ 598 91 272 741</a>
+				</div>
+				<div class="num-punta">
+					<b>Punta del Este</b><br><a style="text-decoration: none;" href="tel:+59899908430">+ 598 99 908 430</a>
+				</div>
+			</div>
+		-->
+		</div>
+		<div class="header-main d-flex justify-content-around align-items-center">
+			<button id="but-browser" type="button" data-toggle="collapse" data-target="#browser" aria-expanded="false" aria-controls="collapseExample">
+		    <img style="width:30px; border-radius:5px;" src="iconos/menu.png" alt="">
+		  </button>
+			<div class="exp align-self-center text-center">
+				<span><b>21 Años de experiencia</b></span><br>
+				<span>2003-2024</span>
+			</div>
+			<!-- Social logos -->
+			<div class="snlogos">
+				<a href="https://www.instagram.com/bancoffcerrajeria/"><img style="width:30px; border-radius:5px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png" alt=""></a>
+				<a href="https://www.facebook.com/bancoff/"><img style="width:30px; border-radius:5px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/480px-Facebook_logo_%28square%29.png" alt=""></a>
+			</div>
+		</div>
+		<div id="browser" class="header-browser collapse d-sm-block">
+			<div class="browser-wrapper d-flex justify-content-between">
+				<a class="button-nav ourjob p-2 btn btn-outline-danger" href="productos.html#nt"><li><span>Productos y servicios</span></li></a>
+				<a class="button-nav who p-2 btn btn-outline-danger" href="#aboutus"><li><span>Nosotros</span></li></a>
+				<a class="button-nav contact p-2 btn btn-outline-danger" href="#contacto"><li><span>Contacto</span></li></a>
+			</div>
+		</div>
+	</header>
+	<main></main>
+		<!-- Main header -->
+		<div id="slidedeimagenes" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
+		 <div id="slidedeimagenes-botones" class="carousel slide" data-ride="carousel">
+		  <div class="carousel-inner">
+		    <div class="carousel-item active position-relative">
+		      <img class="d-block w-100" src="imagen/lock.png" alt="Servicio">
+		      <div class="text-carr text-center">
+		      	<h2>Auxilio 24/7</h2>
+		      	<span>En todo Maldonado</span>
+		      </div>
+		    </div>
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="imagen/maldonado.jpg" alt="Maldonado">
+		      <div class="text-carr text-center">
+		      	<h2>Encontranos en</h2>
+		      	<span>Maldonado</span>
+		      </div>
+		    </div>
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="imagen/pde.png" alt="Punta del Este">
+		      <div class="text-carr text-center">
+		      	<h2>Encontranos en</h2>
+		      	<span>Punta del Este</span>
+		      </div>
+		    </div>
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="imagen/joseignacio.jpg" alt="Nueva York">
+		      <div class="text-carr text-center">
+		      	<h2>Encontranos en</h2>
+		      	<span>Jose Ignacio</span>
+		      </div>
+		    </div>
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="imagen/newyork.jpg" alt="Nueva York">
+		      <div class="text-carr text-center">
+		      	<h2>Encontranos en</h2>
+		      	<span>Nueva York</span>
+		      </div>
+		    </div>
+		    <a class="carousel-control-prev" href="#slidedeimagenes" role="button" data-slide="prev">
+			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    <span class="sr-only"></span>
+			  </a>
+			  <a class="carousel-control-next" href="#slidedeimagenes" role="button" data-slide="next">
+			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    <span class="sr-only"></span>
+			  </a>
+		  </div>
+		</div>
+	</div>
+	<div class="aboutus text-justify p-3 d-flex flex-column" id="aboutus">
+		<h4 class="text-center m-auto">Sobre nosotros</h4>
+		<hr>
+		<div class="img-n-text row m-3">
+			<img class="img-aboutus align-self-center m-auto" src="./imagen/cars.jpg" alt="">
+			<div class="text-div m-auto col-xl-8">
+				<span class="m-3 d-flex vertical-align-middle">¡Estamos contentos de verte aquí! Antes de que pueda contar con nosotros, permítanos presentarnos. Somos un equipo de técnicos capacitados con sede en la ciudad de Maldonado. Somos profesionales en nuestro trabajo y nos sentimos seguros ante cualquier desafío. Creemos que la puntualidad y la eficiencia son la base de nuestro éxito. <br>Nuestro objetivo es dejarte con una sonrisa en la cara.<br>No dude en llamar, enviar un correo electrónico o reservar un servicio en línea</span>
+			</div>
+		</div>
+		<hr>
+		<div class="img-n-text row m-3">
+			<div class="m-auto col-xl-11">
+				<div class="m-3 d-flex vertical-align-middle row">
+					<div class="mvc d-flex flex-column col-12">
+						<h3>Misión</h3>
+						<span>A lo largo de los años de experiencia hemos ganado confianza y eficiencia, que ahora se han convertido en nuestros valores, nuestro objetivo siempre será entregar un servicio en el que nuestros clientes sientan confianza.</span>
+					</div>
+					<hr class="mt-3">
+					<div class="mvc d-flex flex-column col-12">
+						<h3>Vision</h3>
+						<span>Siempre estamos buscando formas innovadoras de mejorar nuestras habilidades, por lo tanto, basándonos en la familia que hemos creado a lo largo de los años, esta es una forma de trabajo que superaría los estándares.</span>
+					</div>
+					<hr class="mt-3">
+					<div class="mvc d-flex flex-column col-12">
+						<h3>Compromiso comercial</h3>
+						<span>Cualesquiera que sean tus requerimientos, contamos con un excelente servicio al cliente que se encargará de tus necesidades para que tengas la mejor experiencia, nuestro compromiso siempre será la gratificación del cliente.</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr>
+	</div>
+	<div class="contact">
+		<div class="contact-main d-block">
+			
+			<div class="contact-left row m-0">
+				<div class="contact-title d-flex justify-content-center pt-3">
+					<h2 id="contacto">Contacto</h2>
+				</div>
+				<div class="contact-left-left col-lg-4 mb-3">
+					<div class="contacto-servicio row">
+						<div class="contacto-servicio-titulo col-md-12 mt-3 mb-3 text-center">
+								<h4>Servicio y auxilios 24/7</h4>
+						</div>
+						<div class="contacto-servicio-texto text-center">
+								<div class="contacto-servicio-ale text-center">
+									<span><b>Maldonado.  </b></span>
+									<a href="+59891272741">+(598) 091 27 27 41</a>
+								</div>
+								<div class="contacto-servicio-michel text-center mt-1">
+									<span><b>Punta del Este.  </b></span>
+									<a href="+59899908430">+(598) 099 90 84 30</a>
+								</div>
+								<div class="contacto-servicio-michel text-center mt-1">
+									<span><b>Jose Ignacio.  </b></span>
+									<a class="text-decoration-none" href="+59891272741">Proximamente</a>
+								</div>
+						</div>
+					</div>
+				</div>
+				<div class="contact-left-left col-lg-4 mb-3">
+					<div class="contacto-servicio row">
+						<div class="contacto-servicio-titulo col-md-12 mt-3 mb-3 text-center">
+								<h4>Redes sociales</h4>
+						</div>
+						<div class="contacto-servicio-texto text-center">
+								<div class="contacto-redes-insta text-center mt-1">
+									<a href="https://www.instagram.com/bancoffcerrajeria/"><span><b>Instagram</b></span></a>
+								</div>
+								<div class="contacto-redes-facebook text-center mt-1">
+									<a href="https://www.facebook.com/bancoff/"><span><b>Facebook</b></span></a>
+								</div>
+						</div>
+					</div>
+				</div>
+				<div class="contact-left-left col-lg-4 mb-3">
+					<div class="contacto-servicio row">
+						<div class="contacto-servicio-titulo col-md-12 mt-3 mb-3 text-center">
+								<h4>Sedes</h4>
+						</div>
+						<div class="contacto-servicio-texto text-center">
+								<div class="contacto-servicio-ale text-center">
+									<span><b>Maldonado.  </b></span>
+									<a href="+59891272741">+(598) 091 34 10 55</a>
+								</div>
+								<div class="contacto-servicio-michel text-center mt-1">
+									<span><b>Punta del Este.  </b></span>
+									<a href="+59899908430">+(598) 092 89 51 67</a>
+								</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="contact-location text-center row m-0">
+				<div class="ubi-maldonado col-sm-6 m-0 pb-2">
+					<h4 class="p-3"><b>Ubicación</b><br>Maldonado</h4>
+				  <iframe class="p-1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.920332118355!2d-54.955525180409566!3d-34.90844875091691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95751bdef34978f7%3A0xff28d4b8fc3901a7!2sCerrajeria%20Bancoff%20-%20Maldonado!5e0!3m2!1ses-419!2suy!4v1707931847131!5m2!1ses-419!2suy" width="60%" style="border:1px solid red;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+				  <small>Florida 625 entre San Carlos y Rincon</small><br>
+				</div>
+				<div class="ubi-punta col-sm-6 m-0 pb-2">
+					<h4 class="p-3"><b>Ubicación</b><br>Punta del Este</h4>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3270.0792478471662!2d-54.93935142486493!3d-34.95462237611393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x957505851cfb827f%3A0xd5c28865020fe58!2sCerrajeria%20Bancoff%20-%20Punta%20del%20Este!5e0!3m2!1ses-419!2suy!4v1707932036956!5m2!1ses-419!2suy"style="border:1px solid red;" width="60%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+					<small>Av. Francisco Salazar, esquina Yaro</small>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="footer text-center text-white bg-black p-2"><span>Copyright © Cerrajería Bancoff</span></div>
+	</footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</html>

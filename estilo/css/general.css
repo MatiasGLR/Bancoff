@@ -1,0 +1,22 @@
+@font-face {
+	font-family: bancoff;
+	src: url(../../fonts/timeless/Timeless.ttf);
+}
+
+@font-face {
+	font-family: bancoff;
+	src: url(../../fonts/timeless/Timeless-Bold.ttf);
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: brumery;
+	src: url(../../fonts/brumery/Brumery Demo.ttf);
+}
+
+*{
+	padding:0;
+	margin:0;
+	font-family: bancoff;
+	font-size: 100%;
+}
