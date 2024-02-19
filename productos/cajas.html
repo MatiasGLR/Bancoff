@@ -4,11 +4,11 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Cerrajería Bancoff</title>
-	<link rel="stylesheet" href="estilo/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../estilo/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/util.js">
-	<link rel="stylesheet" href="estilo/css/general.css"> <!-- Generales -->
-	<link rel="stylesheet" href="estilo/css/header.css"> <!-- Header -->
-	<link rel="stylesheet" href="estilo/css/main.css"> <!-- Main -->
+	<link rel="stylesheet" href="../estilo/css/general.css"> <!-- Generales -->
+	<link rel="stylesheet" href="../estilo/css/header.css"> <!-- Header -->
+	<link rel="stylesheet" href="../estilo/css/main.css"> <!-- Main -->
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -17,24 +17,14 @@
 	<header>
 		<div class="header-supermain">
 			<div class="d-flex justify-content-around align-items-center text-center" style="width:100%;">
-				<a href="index.html"><img class="logo img-fluid" style="max-width: 100%;" src="logo.jpg" alt=""></a>
+				<a href="index.html"><img class="logo img-fluid" style="max-width: 100%;" src="../logo.jpg" alt=""></a>
 			</div>
-			<!--
-			<div class="d-flex justify-content-around align-items-center text-center p-4" style="width:100%;">
-				<div class="num-maldo">
-					<b>Maldonado</b><br><a style="text-decoration: none;" href="tel:+59891272741">+ 598 91 272 741</a>
-				</div>
-				<div class="num-punta">
-					<b>Punta del Este</b><br><a style="text-decoration: none;" href="tel:+59899908430">+ 598 99 908 430</a>
-				</div>
-			</div>
-		-->
 		</div>
 		<div class="header-main d-flex justify-content-around align-items-center">
 			<button id="but-browser" type="button" data-toggle="collapse" data-target="#browser" aria-expanded="false" aria-controls="collapseExample">
 			<img style="width:30px; border-radius:5px;" src="iconos/menu.png" alt="">
 		  </button>
-			<div class="exp align-self-center text-center">
+			<div id="byx" class="exp align-self-center text-center">
 				<span><b>21 Años de experiencia</b></span><br>
 				<span>2003-2024</span>
 			</div>
@@ -46,7 +36,8 @@
 		</div>
 		<div id="browser" class="header-browser collapse d-sm-block">
 			<div class="browser-wrapper d-flex justify-content-between">
-				<a class="button-nav ourjob p-2 btn btn-outline-danger" href="index.html"><li><span>Inicio</span></li></a>
+				<a class="button-nav ourjob p-2 btn btn-outline-danger" href="../index.html"><li><span>Inicio</span></li></a>
+				<a class="button-nav who p-2 btn btn-outline-danger" href="../Productos.html#nt"><li><span>Productos</span></li></a>
 				<a class="button-nav contact p-2 btn btn-outline-danger" href="#contacto"><li><span>Contacto</span></li></a>
 			</div>
 		</div>
@@ -55,87 +46,66 @@
 		<!-- Servicios -->
 		<div id="nt" class="nuestros-servicios">
 			<div class="nuserv-bloque m-3">
-				<div class="row justify-content-around">
-					<!-- Copias de llave -->
+				<div class="yale-logo text-center">
+					
+				</div>
+				<div class="row justify-content-between">
+					<!-- Mini -->
 					<div class="card m-2 g-2" style="width: 19rem;">
-						<img src="imagen/duplicacion.jpg" class="card-img-top" alt="...">
-						 <div class="card-body">
-						<p class="card-text"><h3>Copias de llave</h3>Con garantía, y hechas en el acto</p>
-					  </div>
-					</div>
-					<!-- Cambio de control -->
-					<div class="card m-2 g-2" style="width: 19rem;">
-						<img src="imagen/Screenshot_1.png" class="card-img-top" alt="...">
-						 <div class="card-body text-center">
-						<p class="card-text"><h3>Cambio y duplicación</h3>Cambiamos la carcaza de la llave de su coche o mando remoto, y realizamos duplicación de los mismos</p>
-						</div>
-					</div>
-					<!-- Camaras -->
-					<div class="card m-2 g-2" style="width: 19rem;">
-						<img src="imagen/camara.jpg" class="card-img-top" alt="...">
-						 <div class="card-body text-center">
-						<p class="card-text"><h3>Cámaras de seguridad</h3>Instalamos cámaras de seguridad con función Wi-Fi, para ver en tiempo real desde cualquier lugar</p>
+						<img src="cajas/minibox.jpg" class="card-img-top" alt="...">
+						<div class="card-body text-center">
+							<h3>Caja Mini</h3>
+							17cm x 23cm x 17cm
+							<br>
+							Con llave y código
 						</div>
 					  <div class="card-body p-1 d-flex align-items-end justify-content-center m-2">
-						<div class="text-center"><a href="#" class="btn btn-primary align-text-bottom">Ver productos</a></div>
+						<div class="text-center"><div class="numberstyle btn btn-outline-danger align-text-bottom">U$D 130</div></div>
 					  </div>
 					</div>
-					<!-- Cajas fuertes -->
+					<!-- Pequeña -->
 					<div class="card m-2 g-2" style="width: 19rem;">
-						<img src="imagen/Screenshot_3.png" class="card-img-top" alt="...">
-						 <div class="card-body text-center">
-						<p class="card-text"><h3>Cajas fuertes</h3>Venta e instalación de cajas fuertes, múltipes medidas</p>
-					  </div>
-					  <div class="card-body p-1 d-flex align-items-end justify-content-center m-2">
-						<div class="text-center"><a href="./productos/cajas.html#byx" class="btn btn-primary align-text-bottom">Ver productos</a></div>
-					  </div>
-					</div>
-					<!-- Cerraduras electrónicas -->
-					<div class="card m-2 g-2" style="width: 19rem;">
-						<img src="imagen/nextxyale.jpg" class="card-img-top" alt="...">
-						 <div class="card-body text-center">
-						<p class="card-text"><h3>Cerraduras electrónicas</h3>Variedad de cerraduras, con la capacidad de abrirse desde cualquier parte del mundo</p>
+						<img src="cajas/smallbox.jpg" class="card-img-top" alt="...">
+						<div class="card-body text-center">
+							<h3>Caja Pequeña</h3>
+							20cm x 31cm x 20cm
+							<br>
+							Con llave y código
 						</div>
 					  <div class="card-body p-1 d-flex align-items-end justify-content-center m-2">
-						<div class="text-center"><a href="#" class="btn btn-primary align-text-bottom">Ver productos</a></div>
+						<div class="text-center"><div class="numberstyle btn btn-outline-danger align-text-bottom">U$D 155</div></div>
 					  </div>
 					</div>
-					<!-- Puertas magnéticas -->
+					<!-- Mediana -->
 					<div class="card m-2 g-2" style="width: 19rem;">
-						<img src="imagen/magnetic.jpg" class="card-img-top" alt="...">
-						 <div class="card-body text-center">
-						<p class="card-text"><h3>Puertas magnéticas</h3>Puertas magnéticas con paneles simples, controles remotos y biométricos</p>
+						<img src="cajas/mediumbox.jpeg" class="card-img-top" alt="...">
+						<div class="card-body text-center">
+							<h3>Caja Mediana</h3>
+							25cm x 35cm x 25cm
+							<br>
+							Con llave y código
 						</div>
 					  <div class="card-body p-1 d-flex align-items-end justify-content-center m-2">
-						<div class="text-center"><a href="#" class="btn btn-primary align-text-bottom">Ver productos</a></div>
+						<div class="text-center"><div class="numberstyle btn btn-outline-danger align-text-bottom">U$D 185</div></div>
 					  </div>
 					</div>
-					<!-- Pomo -->
+					<!-- Laptop -->
 					<div class="card m-2 g-2" style="width: 19rem;">
-						<img src="imagen/pomos.jpg" class="card-img-top" alt="...">
-						 <div class="card-body text-center">
-						<p class="card-text"><h3>Pomos</h3>Variedad de pomos para cada tipo de necesidad, con y sin llaves</p>
+						<img src="cajas/laptopbox.jpeg" class="card-img-top" alt="...">
+						<div class="card-body text-center">
+							<h3>Caja Laptop</h3>
+							20cm x 43cm x 35cm
+							<br>
+							Con llave y código
 						</div>
 					  <div class="card-body p-1 d-flex align-items-end justify-content-center m-2">
-						<div class="text-center"><a href="#" class="btn btn-primary align-text-bottom">Ver productos</a></div>
-					  </div>
-					</div>
-					<!-- Puertas automatizadas -->
-					<div class="card m-2 g-2" style="width: 19rem;">
-						<img src="imagen/Screenshot_4.png" class="card-img-top" alt="...">
-						 <div class="card-body text-center">
-						<p class="card-text"><h3>Automatizados</h3>Equipos para apertura eléctrica de portones a distancia</p>
-						</div>
-					  <div class="card-body p-1 d-flex align-items-end justify-content-center m-2">
-						<div class="text-center"><a href="#" class="btn btn-primary align-text-bottom">Ver productos</a></div>
+						<div class="text-center"><div class="numberstyle btn btn-outline-danger align-text-bottom">U$D 265</div></div>
 					  </div>
 					</div>
 				</div>
 			</div>
 		</div>
 	<!-- Marcas -->
-		<div class="trabajamoscon"><span>TRABAJAMOS CON TODAS LAS MARCAS</span></div>
-		<div class="marcas"></div>
 		<div id="contacto" class="contact">
 		<div class="contact-main d-block">
 			<div class="contact-left row m-0">
