@@ -77,28 +77,6 @@
 	}
 }
 
-.card-img-top {
-    width: 100%;
-    height: 15vw;
-    object-fit: cover;
-}
-
-@media only screen and (max-width: 800px){
-	.card-img-top {
-	    width: 100%;
-	    height: 25vw;
-	    object-fit: cover;
-	}
-}
-
-@media only screen and (max-width: 500px){
-	.card-img-top {
-	    width: 100%;
-	    height: 70vw;
-	    object-fit: cover;
-	}
-}
-
 /*
 .main-center img {
 	text-align: right;
@@ -262,4 +240,63 @@ a {
 
 .numberstyle {
 	font-family: system-ui;
+}
+
+.oferta {
+	position: absolute;
+	top:5%;
+	left:5%;
+	width:40%;
+}
+
+.yalelogocajas {
+	width:150px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: contain;
+}
+
+.imgtopbox {
+	height:30vh;
+	box-sizing: border-box;
+}
+
+@media only screen and (max-width: 1050px){
+	.card-img-top {
+	    width: 100%;
+	    height: 20vw;
+	    object-fit: contain;
+	}
+}
+
+@media only screen and (max-width: 810px){
+	.card-img-top {
+	    width: 100%;
+	    height: 30vw;
+	    object-fit: contain;
+	}
+}
+@media only screen and (max-width: 500px){
+	.card-img-top {
+	    width: 100%;
+	    height: 50vw;
+	    object-fit: contain;
+	}
+}
+
+@media only screen and (max-width: 400px){
+	.card-img-top {
+	    width: 100%;
+	    height: 25vw;
+	    object-fit: contain;
+	}
+
+	.imgtopbox {
+		height:50vh;
+		padding:4px;
+		box-sizing: border-box;
+	}
 }
