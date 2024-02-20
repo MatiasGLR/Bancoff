@@ -270,6 +270,11 @@ a {
 	width:150px;
 }
 
+.button-nav {
+	width:99%;
+	margin: 0 3px;
+}
+
 @media only screen and (max-width: 800px){
 	.imgtopbox {
 	    width: 100%;
