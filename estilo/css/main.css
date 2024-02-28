@@ -275,6 +275,10 @@ a {
 	width:150px;
 }
 
+.logoscamaras {
+	width:300px;
+}
+
 .marca {
 	width:200px;
 }
@@ -312,6 +316,7 @@ a {
 	transition: 0.3s;
 	border: 2px solid green;
 	border-radius: 100%;
+	width:10vh;
 }
 
 @media only screen and (max-width: 800px){
@@ -327,6 +332,7 @@ a {
 		transition: 0.3s;
 		border: 2px solid green;
 		border-radius: 100%;
+		width:8vh;
 	}
 }
 
