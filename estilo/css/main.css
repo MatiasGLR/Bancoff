@@ -352,3 +352,7 @@ a {
 .os {
 	overflow: visible;
 }
+
+#browser {
+	color: black;
+}
