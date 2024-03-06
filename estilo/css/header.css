@@ -10,9 +10,9 @@ img {
 .header-main {
 	width: 100%;
 	background-color: white;
-	color:black;
-	background-image: url(https://i.pinimg.com/originals/9e/ec/3c/9eec3cd5c2a2064be3005409dca25f01.jpg);
-	background-size: cover;
+	color:white;
+	background-image: url(../../pattern.avif);
+	background-size:cover;
 	border-top:2px solid red;
 	border-bottom:2px solid red;
 }
@@ -22,6 +22,16 @@ img {
 	border:0;
 	gap:2px; 
 	width:calc(100%/3 - 4px);
+	color:White;
+	transition: 0.1s ease-out;
+}
+
+.text-justify {
+	text-align: justify;
+}
+
+.button-nav {
+	transition: 0.1s ease-in;
 }
 
 .logo {

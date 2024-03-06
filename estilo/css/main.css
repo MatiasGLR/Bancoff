@@ -356,3 +356,6 @@ a {
 #browser {
 	color: black;
 }
+
+.text-border-white {text-shadow: -0.8px 0.8px 0 #fff, 0.8px 0.8px 0 #fff, 0.8px -0.8px 0 #fff, -0.8px -0.8px 0 #fff;}
+.text-border-dark {text-shadow: -0.8px 0.8px 0 #000, 0.8px 0.8px 0 #000, 0.8px -0.8px 0 #000, -0.8px -0.8px 0 #000;}
